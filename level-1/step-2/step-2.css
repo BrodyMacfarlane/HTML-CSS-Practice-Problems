@@ -15,18 +15,29 @@
 
 .profile-image-container {
     background: #96F0F2;
+    width: auto;
+    height: 250px;
+    margin: 20px;
 }
 
 /* Step-2 One option to get the container to fill the parent container is to use width: auto; */
 
 .profile-links-container {
     background: #12F3F7;
+    width: auto;
+    height: 250px;
+    margin: 20px;
 }
 
 /* Step-2 You can either use float left or position absolute to get this element to in the desired location. */
 
 .logo-container {
+    position: relative;
     background: #4F4949;
+    height: 60px;
+    width: calc(34% - 40px);
+    top: 20px;
+    left: 20px;
 }
 
 
@@ -34,6 +45,11 @@
 
 .menu-container {
     background: #4F4949;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 60px;
+    width: 50px;
 }
 
 
